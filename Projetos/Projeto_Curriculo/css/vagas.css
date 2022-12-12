@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+html#vaga{
+    height: 100%;
+    background: rgb(0,212,255);
+    background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(11,93,23,1) 0%, rgba(2,0,36,0.9500175070028011) 97%);
+    height: 100%;
+}
+
+body#prof{
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    height: 90%;
+    width: auto;
+    max-width: inherit;
+}
+
+hgroup#vaga{
+    text-align: center;
+}
+
+div.vaga{
+    display:none;
+    background-color: lightgray;
+    padding: 10px;
+    padding-top: 1px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+div.vaga#v1{
+    display: block;
+}
+
+button.botao{
+    position: relative;
+    left: 110px;
+    max-height: inherit; 
+}
+
+iframe#frame-vaga{
+    margin-top: 180px;
+    width: 400px;
+    height: 320px;
+    overflow: hidden;
+    border: none;
+    text-align: center;
+    max-width: inherit;
+    font-family: Georgia;
+}
+
+button.botao{
+    border: 1px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    border-radius: 2px;
+    cursor: pointer;
+}

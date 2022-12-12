@@ -1,0 +1,79 @@
+@font-face {
+    font-family: FonteCurriculo;
+    src: url(./Projeto_Curriculo/fonts/Acme-Regular.ttf);
+}
+@font-face { /* Especifica uma fonte, o nome dela e o caminho onde ela está na */
+    font-family: FonteNome;
+    src: url(./Projeto_Curriculo/fonts/FredokaOne-Regular.ttf);
+}
+
+html{
+    height: auto;
+    width: auto;
+    background-image: url("/Projeto_Curriculo/Imagens/livros.jpg");
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div#borda{
+    padding: 50px;
+    background-color: rgb(197, 188, 188);
+    border: 10px solid rgb(197, 188, 188);
+    margin: 15%;
+    margin-top: 3%;
+    border-radius: 30px 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+div#borda hgroup{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
+
+hgroup#sec{
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+hgroup p{
+    cursor: pointer;
+}
+
+div#ul{
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul{
+    margin-top: 5px;
+}
+
+aside#diploma{
+    width: 30%; 
+    margin-top: 2px;
+    padding-top: 2px;
+    padding-left: 15px;
+    display: none;
+}
+
+img#fotoDiploma{
+    width: 130px;
+    height: 100px;
+    background-color: rgb(197, 188, 188);
+}
+
+footer{
+    clear: both;
+    margin-top: 10%;
+    padding-bottom: -5%;
+}
+
+button{
+    background-color: rgb(197, 188, 189);
+    border: none;
+    cursor: pointer;
+}
+

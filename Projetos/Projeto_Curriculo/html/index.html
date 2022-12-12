@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Curriculo</title>
+        <link rel="stylesheet" href="/Projeto_Curriculo/css/main.css"> 
+        <script language="javascript" src="/Projeto_Curriculo/js/script.js"></script>
+    </head>
+    <body>  
+        <div id="interface">
+            <header>
+                    <h1>CURRICULO VITAE</h1>
+                    <div>
+                        <h2>
+                           <p onclick="nome()" id="nome"> JUAN PEDRO CASARIN DOS SANTOS </p>
+                        </h2><br/>
+                        <img id="foto" name="clara" src="/Projeto_Curriculo/imagens/foto.jpg" onclick="fotoEscurecida()">
+                    </div>
+            </header>
+            <div>
+                <div>
+                    <section id="main">
+                        <div>
+                            <div>
+                                <h3>
+                                    DADOS PESSOAIS
+                                    <hgroup>
+                                        <p><strong>DATA DE NASCIMENTO: </strong>04/11/2000</p>
+                                        <p><strong>GENÊRO: </strong>Masculino</p>
+                                        <p><strong>EMAIL: </strong>juan.santos@sou.ucpel.edu.br</p>
+                                        <p><strong>ESTADO CIVIL: </strong>Solteiro</p>
+                                    </hgroup>
+                                </h3></br>
+                            </div>
+                            <div>  
+                                <h3>
+                                    ENDEREÇO 
+                                    <hgroup>
+                                        <p><strong>RUA: </strong>Avenida Cidade de Rio Grande</p>
+                                        <p><strong>NÚMERO: </strong>1840</p>
+                                        <p><strong>CEP: </strong>96076-240 </p>
+                                        <p><strong>BAIRRO: </strong>Navegantes II</p>
+                                        <p><strong>CIDADE: </strong>Pelotas</p>
+                                        <p><strong>ESTADO: </strong>Rio Grande do Sul</p>
+                                    </hgroup>
+                                </h3></br>
+                            </div>
+                            <nav id="menu">
+                                <div>
+                                    <h3>
+                                        <a href="form.html">FORMAÇÃO ACADÊMICA</a>
+                                    </h3></br>
+                                </div>
+                                <div>
+                                    <h3>
+                                        <a href="cursos.html" target="_blank">CURSOS REALIZADOS</a>
+                                    </h3></br>
+                                </div>
+                                <div>
+                                    <h3>
+                                        <a href="prof.html" target="_blank">EXPERIÊNCIAS PROFISSIONAIS</a>
+                                    </h3></br>
+                                </div>
+                            </nav>
+                        </div>
+                        <div id="audio-e-video">
+                            <audio id="musica" controls="controls">
+                                <source src="/Projeto_Curriculo/audios/654731__sergequadrado__fantasy.wav" type="audio/mpeg"/>
+                            </audio>
+                            <div>
+                                <button onclick="verVideo()">Resumo das expertises</button>
+                                <video id="video"src="/Projeto_Curriculo/videos/musical-jolly-chimp-brinquedo-antigo-de-macaco-tocando-pratos-fabricado-no-japao-pela-daishin.mp4" controls="controls"></video>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div>
+                    <aside id="main">
+                        <h4>
+                            <table id="idioma">
+                                <caption>Idiomas:</caption>
+                                <tr><td>Ingles</td><td>Intermediário</td></tr>
+                                <tr><td>Espanhol</td><td>Básico</td></tr>
+                            </table>
+                        </h4>
+                    </aside>
+                </div>
+            </div>
+        </div>        
+        <footer>
+            <div>
+                <h4>
+                    <script>
+                        document.write("Acesso em: " + Date());
+                    </script>
+                </h4>
+                <h4>
+                    <a href="cont.html" target="_blank"> contato </a> 
+                </h4>
+            </div>
+        </footer>
+    </body>
+</html>
